@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#svelte{
+    height: calc(100 * var(--vh, 1vh));
+    display: flex;
+}
+ul.reset,
+ul.reset li,
+ul.reset ul li {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: none;
+}
+
+
+.debug{
+    outline: 1px solid red;
+}
+
+
+
+.hidden{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .hidden-blw-md{
+        display: none !important;
+    }
+}
